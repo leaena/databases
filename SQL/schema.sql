@@ -3,6 +3,8 @@ CREATE DATABASE chat;
 USE chat;
 
 CREATE TABLE messages (
+  username varchar(20),
+  message varchar(150)
  /* Describe your table here.*/
 );
 
